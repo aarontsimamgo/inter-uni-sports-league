@@ -110,7 +110,8 @@ $ dfx start --background
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-$ cd icp_rust_boilerplate/
+$ git clone https://github.com/aarontsimamgo/inter-uni-sports-league.git
+$ cd inter-uni-sports-league/
 $ dfx help
 $ dfx canister --help
 ```
@@ -167,7 +168,7 @@ If you want to test your project locally, you can use the following commands:
 
 ```bash
 # Starts the replica, running in the background
-$ dfx start --background
+$ dfx start --background --clean
 
 # Deploys your canisters to the replica and generates your candid interface
 $ dfx deploy
